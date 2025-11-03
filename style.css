@@ -1,0 +1,50 @@
+ .cabeça{
+     height: 100px;
+     width: 100%;
+     background-color: #1eb039;
+     border-radius: 16px;
+        }
+#rediresona{
+     text-align: center;
+     color: #FFF;
+        }
+.corpo{
+     height: 40%;
+     width: 100%;
+     background-color: #FFF;
+     border-radius: 16px;
+        }
+body{
+     background-color: #FFF;
+
+}
+#logo{
+     height: 100px;
+}
+#ilustr{
+     height: 350px;
+     border-radius: 16px;
+}
+#welcome{
+     width: 50%;
+}
+/*atençao pois iamgem na tá fazendo nada*/
+#imagem{
+     margin-right: auto;
+     
+}
+#barra{
+     background-color:  #1eb039;
+     color: #128227;
+     width: 100%;
+     height: 45px;
+     border-radius: 16px;
+}
+body{
+     background-image: url(img/fundo.png);
+     background-size: cover;
+
+}
+#name{
+     height: 75px;
+}
