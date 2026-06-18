@@ -1,0 +1,83 @@
+@import url(global.css);
+.cabeca{
+     height: 85px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        }
+#rediresona{
+     text-decoration: none;
+     display: flex;
+     padding: 15px;
+     gap: 10px;
+     flex: 1; 
+     color: #FFF;
+        }
+#rediresona:hover{
+     color: #00BAB4;
+     text-decoration: underline;
+}
+main{
+     /*display: flex;*/   
+     padding: 10px;
+     background-color: #FFF;
+     border-radius: 16px;
+     justify-content: space-between;
+        }
+
+#ilustr{
+     margin-right: auto;
+     height: 350px;
+     border-radius: 16px;
+}
+#texto{            
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+#texto p{
+     font:var(--fonte-family);
+     font-size: 19px;
+}
+#imagem{ 
+     display: grid;
+     place-items: center;
+     justify-content: center; 
+     align-items: center;    
+     padding: 15px;
+     
+}
+#barra{
+     background-color: var(--background-barra);   
+     height: 60px;
+     border-radius: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#name{
+     height: 45px;
+}
+#brr{
+     list-style: none;
+     display: flex;
+     align-items: center;
+}
+#icons{
+     height: 45px;
+     display: flex;
+     gap: 20px;
+     padding: 10px;
+}
+#texto2{
+     
+     display: grid;
+     grid-column: 1/3; 
+     gap: 10px;
+}
+#texto2 p{
+     font:var(--fonte-family);
+     font-size: 19px;
+}

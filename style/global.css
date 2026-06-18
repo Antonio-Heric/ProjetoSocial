@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-pg: #00BAB4;
+    --background-barra: #313331;
+    --fonte-family: "Poppins", sans-serif;
+    --text-nr: 45px,170% var(--fonte-family);
+
+}
+body{
+    font:var(--text-nr);
+    flex-wrap: 1;
+    background-color: var(--background-pg);
+
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
